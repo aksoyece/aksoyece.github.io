@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Ece Aksoy — Computer Engineering student. Frontend & full-stack web development with Vue.js, Nuxt, and TypeScript." />
+  <title>Ece Aksoy — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Ece Aksoy</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="Ece-Aksoy-CV.pdf" download>CV</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="hero-eyebrow reveal">Computer Engineering · Class of 2027</p>
+        <h1 class="hero-name reveal">
+          <span>Ece</span>
+          <span>Aksoy</span>
+        </h1>
+        <p class="hero-lead reveal">
+          Frontend and full-stack web development with Vue.js, Nuxt, and TypeScript — shipping real apps with APIs, auth, and responsive UI.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#work">View projects</a>
+          <a class="btn btn-ghost" href="mailto:aksoyece241@gmail.com">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head">
+        <h2>About</h2>
+        <p>Building production-ready web apps from internship tasks to deployed products.</p>
+      </div>
+      <p class="about-text">
+        4th-year Computer Engineering student at Çanakkale Onsekiz Mart University. Focused on modern frontend architecture, REST API integration, and full-stack workflows with Supabase and PostgreSQL. Completed a software development internship at trex and shipped multiple live projects involving authentication, state management, and responsive interfaces.
+      </p>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p>Five deployed projects from internship and personal practice.</p>
+      </div>
+
+      <div class="project-list">
+        <a class="project-row" href="https://aksoyece.github.io/vue-tmdb-movies/" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-index">01</span>
+            <h3>CineRota</h3>
+            <p class="project-tech">Vue 3 · Vite · TMDB · Cloudflare Workers</p>
+          </div>
+          <p class="project-desc">Movie discovery with search, favorites, and trailers. API keys stay server-side via a Cloudflare Workers proxy.</p>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="project-row" href="https://etkinlik-kesif-uygulamasi.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-index">02</span>
+            <h3>Evently</h3>
+            <p class="project-tech">Nuxt 4 · Nuxt UI · TypeScript · Pinia · Ticketmaster</p>
+          </div>
+          <p class="project-desc">Live UK event discovery with filters, detail pages, persistent favorites, and dark/light mode.</p>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="project-row" href="https://damga.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-index">03</span>
+            <h3>Damga</h3>
+            <p class="project-tech">Nuxt · Leaflet · OpenStreetMap · Nominatim</p>
+          </div>
+          <p class="project-desc">City exploration and personal travel archive — map discovery, visits, ratings, and notes in Local Storage.</p>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="project-row" href="https://kargo-radar.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-index">04</span>
+            <h3>Kargo Radar</h3>
+            <p class="project-tech">Nuxt 4 · Pinia · AfterShip · PWA</p>
+          </div>
+          <p class="project-desc">Multi-carrier tracking for 9 cargo companies. Heterogeneous API responses normalized into one shared format.</p>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a class="project-row" href="https://yonetix-app.vercel.app/" target="_blank" rel="noopener">
+          <div class="project-meta">
+            <span class="project-index">05</span>
+            <h3>YönetiX</h3>
+            <p class="project-tech">Nuxt 4 · Supabase · PostgreSQL · Nuxt UI</p>
+          </div>
+          <p class="project-desc">Apartment management with admin and resident roles — dues, polls, fault reports, Auth, RLS, and realtime notifications.</p>
+          <span class="project-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Where the stack was practiced in a real company setting.</p>
+      </div>
+
+      <article class="experience">
+        <div class="experience-top">
+          <div>
+            <h3>Software Developer Intern</h3>
+            <p class="experience-org">trex Dijital Akıllı Üretim Sistemleri A.Ş. · Bursa</p>
+          </div>
+          <time datetime="2026-08">Aug 2026 – Sep 2026</time>
+        </div>
+        <ul>
+          <li>Shipped multiple Vue.js / Nuxt apps with responsive UI, themes, and Vercel deployment.</li>
+          <li>Integrated REST APIs (Ticketmaster, TMDB, AfterShip, OpenStreetMap) with Pinia and Local Storage.</li>
+          <li>Used TypeScript, Nuxt UI, Zod, and secure API patterns via Cloudflare Workers.</li>
+        </ul>
+      </article>
+
+      <article class="experience education">
+        <div class="experience-top">
+          <div>
+            <h3>B.Sc. Computer Engineering</h3>
+            <p class="experience-org">Çanakkale Onsekiz Mart University</p>
+          </div>
+          <time datetime="2023">2023 – Present</time>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools used across live projects — not just coursework.</p>
+      </div>
+      <div class="skills-grid">
+        <div>
+          <h3>Frontend</h3>
+          <p>Vue.js, Nuxt.js, Nuxt UI, TypeScript, JavaScript, Pinia, Vue Router, Vite</p>
+        </div>
+        <div>
+          <h3>Backend &amp; data</h3>
+          <p>REST APIs, Supabase, PostgreSQL, SQL</p>
+        </div>
+        <div>
+          <h3>Tools &amp; practices</h3>
+          <p>Git, GitHub, Vercel, Cloudflare Workers, Zod, PWA, Responsive UI/UX</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Open to internships, junior frontend roles, and collaboration.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:aksoyece241@gmail.com">aksoyece241@gmail.com</a>
+        <a href="https://linkedin.com/in/eceaksoy16" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/aksoyece" target="_blank" rel="noopener">GitHub</a>
+        <a href="tel:+905369588385">0536 958 83 85</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ece Aksoy</p>
+    <a href="Ece-Aksoy-CV.pdf" download>Download CV (PDF)</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
